@@ -1,4 +1,4 @@
-package com.upernova.upernovalibrary.ui.theme
+package com.upernova.upernovaproject.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

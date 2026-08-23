@@ -1,4 +1,4 @@
-package com.upernova.upernovalibrary
+package com.upernova.upernovaproject
 
 import org.junit.Test
 

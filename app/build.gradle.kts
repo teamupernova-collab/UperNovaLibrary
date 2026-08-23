@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.upernova.upernova"
+    namespace = "com.upernova.upernovaproject"
     compileSdk {
         version = release(37)
     }

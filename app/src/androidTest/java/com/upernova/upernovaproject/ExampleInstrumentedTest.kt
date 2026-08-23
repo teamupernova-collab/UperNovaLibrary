@@ -1,4 +1,4 @@
-package com.upernova.upernovalibrary
+package com.upernova.upernovaproject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
