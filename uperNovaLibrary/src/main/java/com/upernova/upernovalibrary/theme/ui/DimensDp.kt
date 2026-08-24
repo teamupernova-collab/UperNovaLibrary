@@ -21,4 +21,8 @@ object DimensDp {
     val Dp46 = 46.dp
     val Dp60 = 60.dp
     val Dp30 = 30.dp
+    val Dp6 = 6.dp
+    val Dp45 = 45.dp
+    val Dp20 = 20.dp
+    val Dp35 = 35.dp
 }

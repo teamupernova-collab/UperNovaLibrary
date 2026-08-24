@@ -44,6 +44,18 @@ object Styles {
         fontFamily = robotoFontFamily,
         lineHeight = DimensSp.Sp16
     )
+    var roboto12Regular = TextStyle(
+        fontSize = DimensSp.Sp12,
+        fontWeight = FontWeight.Normal,
+        fontFamily = robotoFontFamily,
+        lineHeight = DimensSp.Sp16
+    )
+    var roboto12Thin = TextStyle(
+        fontSize = DimensSp.Sp12,
+        fontWeight = FontWeight.Thin,
+        fontFamily = robotoFontFamily,
+        lineHeight = DimensSp.Sp16
+    )
 
     var roboto10Thin = TextStyle(
         fontSize = DimensSp.Sp14,
