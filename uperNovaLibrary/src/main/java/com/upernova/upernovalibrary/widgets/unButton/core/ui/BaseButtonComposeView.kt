@@ -1,4 +1,4 @@
-package com.upernova.upernovalibrary.widgets.unTemplate.core.ui
+package com.upernova.upernovalibrary.widgets.unButton.core.ui
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.height
@@ -19,9 +19,9 @@ import com.example.textinputkitlibrary.utils.ui.LightGray
 import com.example.textinputkitlibrary.utils.ui.PetrolBlue
 import com.example.textinputkitlibrary.utils.ui.Styles.roboto12Thin
 import com.example.textinputkitlibrary.utils.ui.Styles.roboto16Regular
-import com.upernova.upernovalibrary.widgets.unTemplate.core.base.ButtonStatus
-import com.upernova.upernovalibrary.widgets.unTemplate.core.base.ButtonType
-import com.upernova.upernovalibrary.widgets.unTemplate.core.model.ButtonModel
+import com.upernova.upernovalibrary.widgets.unButton.core.base.ButtonStatus
+import com.upernova.upernovalibrary.widgets.unButton.core.base.ButtonType
+import com.upernova.upernovalibrary.widgets.unButton.core.model.ButtonModel
 import org.jetbrains.annotations.ApiStatus
 
 @ApiStatus.Internal

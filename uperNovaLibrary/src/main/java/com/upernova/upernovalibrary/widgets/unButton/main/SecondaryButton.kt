@@ -1,10 +1,10 @@
-package com.upernova.upernovalibrary.widgets.unTemplate.main
+package com.upernova.upernovalibrary.widgets.unButton.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.upernova.upernovalibrary.widgets.unTemplate.core.base.ButtonType
-import com.upernova.upernovalibrary.widgets.unTemplate.core.model.ButtonModel
-import com.upernova.upernovalibrary.widgets.unTemplate.core.ui.BaseButtonComposeView
+import com.upernova.upernovalibrary.widgets.unButton.core.base.ButtonType
+import com.upernova.upernovalibrary.widgets.unButton.core.model.ButtonModel
+import com.upernova.upernovalibrary.widgets.unButton.core.ui.BaseButtonComposeView
 
 @Composable
 fun SecondaryButton(
