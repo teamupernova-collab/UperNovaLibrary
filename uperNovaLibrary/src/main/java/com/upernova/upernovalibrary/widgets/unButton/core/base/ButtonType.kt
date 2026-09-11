@@ -4,5 +4,5 @@ import org.jetbrains.annotations.ApiStatus
 
 @ApiStatus.Internal
 enum class ButtonType {
-    PRIMARY, SECONDARY
+    PRIMARY, SECONDARY, TERTIARY
 }

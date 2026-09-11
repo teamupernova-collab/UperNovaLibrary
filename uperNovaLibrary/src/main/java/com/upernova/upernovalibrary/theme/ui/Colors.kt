@@ -1,4 +1,4 @@
-package com.example.textinputkitlibrary.utils.ui
+package com.upernova.upernovalibrary.theme.ui
 
 import androidx.compose.ui.graphics.Color
 import org.jetbrains.annotations.ApiStatus.Internal

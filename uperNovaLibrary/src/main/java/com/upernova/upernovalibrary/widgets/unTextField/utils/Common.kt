@@ -4,11 +4,11 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
-import com.example.textinputkitlibrary.utils.ui.CharcoalGray
-import com.example.textinputkitlibrary.utils.ui.ErrorRed
 import com.example.textinputkitlibrary.utils.ui.Styles.roboto10Thin
-import com.example.textinputkitlibrary.utils.ui.SuccessGreen
-import com.example.textinputkitlibrary.utils.ui.WarningAmber
+import com.upernova.upernovalibrary.theme.ui.ErrorRed
+import com.upernova.upernovalibrary.theme.ui.NightBlue
+import com.upernova.upernovalibrary.theme.ui.SuccessGreen
+import com.upernova.upernovalibrary.theme.ui.WarningAmber
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.KeyBoardActions
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.TextFieldStatus
 import com.upernova.upernovalibrary.widgets.unTextField.core.model.TypesIcons
@@ -37,7 +37,7 @@ fun getTextStyleState(textFieldStatus: TextFieldStatus): TextStyle {
         TextFieldStatus.SUCCESS -> getHelperTextStyle(SuccessGreen)
         TextFieldStatus.ERROR -> getHelperTextStyle(ErrorRed)
         TextFieldStatus.WARNING -> getHelperTextStyle(WarningAmber)
-        else -> getHelperTextStyle(CharcoalGray)
+        else -> getHelperTextStyle(NightBlue)
     }
 }
 

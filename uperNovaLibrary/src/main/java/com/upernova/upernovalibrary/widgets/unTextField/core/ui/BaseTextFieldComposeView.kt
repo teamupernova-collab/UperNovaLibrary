@@ -22,11 +22,11 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import com.example.textinputkitlibrary.core.uitextfield.decoration.DecorationBoxComposeView
-import com.example.textinputkitlibrary.utils.ui.CharcoalGray
-import com.example.textinputkitlibrary.utils.ui.DimensDp
-import com.example.textinputkitlibrary.utils.ui.DimensDp.Dp4
-import com.example.textinputkitlibrary.utils.ui.DimensDp.Dp8
-import com.example.textinputkitlibrary.utils.ui.DimensSp.Sp10
+import com.upernova.upernovalibrary.theme.ui.CharcoalGray
+import com.upernova.upernovalibrary.theme.ui.DimensDp
+import com.upernova.upernovalibrary.theme.ui.DimensDp.Dp4
+import com.upernova.upernovalibrary.theme.ui.DimensDp.Dp8
+import com.upernova.upernovalibrary.theme.ui.DimensSp.Sp10
 import com.example.textinputkitlibrary.utils.ui.Styles.roboto16Regular
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.ActionsListeners
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.TextFieldStatus

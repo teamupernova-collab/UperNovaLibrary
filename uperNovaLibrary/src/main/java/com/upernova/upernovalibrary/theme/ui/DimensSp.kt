@@ -1,4 +1,4 @@
-package com.example.textinputkitlibrary.utils.ui
+package com.upernova.upernovalibrary.theme.ui
 
 import androidx.compose.ui.unit.sp
 import org.jetbrains.annotations.ApiStatus

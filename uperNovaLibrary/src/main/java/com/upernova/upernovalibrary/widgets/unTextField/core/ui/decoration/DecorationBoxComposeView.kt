@@ -21,8 +21,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
-import com.example.textinputkitlibrary.utils.ui.DimensDp
-import com.example.textinputkitlibrary.utils.ui.DimensDp.Dp8
+import com.upernova.upernovalibrary.theme.ui.DimensDp
+import com.upernova.upernovalibrary.theme.ui.DimensDp.Dp8
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.TextFieldStatus
 
 @Composable
@@ -80,7 +80,7 @@ fun DecorationBoxComposeView(
                 ) {
                     innerTextField()
                 }
-                if (endIcon != null) {
+                if (endIcon != null && value.isNotEmpty()) {
                     IconButton(
                         onClick = {
                             endIconAction?.invoke()

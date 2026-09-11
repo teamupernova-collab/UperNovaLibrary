@@ -6,6 +6,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import com.upernova.upernovalibrary.R
+import com.upernova.upernovalibrary.theme.ui.DimensSp
 import org.jetbrains.annotations.ApiStatus
 
 @ApiStatus.Internal

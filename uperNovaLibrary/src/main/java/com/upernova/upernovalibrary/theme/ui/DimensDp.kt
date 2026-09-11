@@ -1,4 +1,4 @@
-package com.example.textinputkitlibrary.utils.ui
+package com.upernova.upernovalibrary.theme.ui
 
 import androidx.compose.ui.unit.dp
 import org.jetbrains.annotations.ApiStatus
@@ -25,4 +25,5 @@ object DimensDp {
     val Dp45 = 45.dp
     val Dp20 = 20.dp
     val Dp35 = 35.dp
+    val Dp18 = 18.dp
 }

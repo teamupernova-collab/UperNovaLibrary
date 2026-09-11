@@ -2,11 +2,12 @@ package com.example.textinputkitlibrary.core.uitextfield.decoration
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
-import com.example.textinputkitlibrary.utils.ui.CharcoalGray
-import com.example.textinputkitlibrary.utils.ui.ErrorRed
-import com.example.textinputkitlibrary.utils.ui.SuccessGreen
-import com.example.textinputkitlibrary.utils.ui.WarningAmber
-import com.example.textinputkitlibrary.utils.ui.gray500ColorBox
+import com.upernova.upernovalibrary.theme.ui.ErrorRed
+import com.upernova.upernovalibrary.theme.ui.NightBlue
+import com.upernova.upernovalibrary.theme.ui.PetrolBlue
+import com.upernova.upernovalibrary.theme.ui.SuccessGreen
+import com.upernova.upernovalibrary.theme.ui.WarningAmber
+import com.upernova.upernovalibrary.theme.ui.gray500ColorBox
 import com.upernova.upernovalibrary.widgets.unTextField.core.base.TextFieldStatus
 import org.jetbrains.annotations.ApiStatus.Internal
 
@@ -19,7 +20,7 @@ fun getUnderLineBox(focusState: Boolean, textFieldStatus: TextFieldStatus): Colo
                 TextFieldStatus.ERROR -> ErrorRed
                 TextFieldStatus.SUCCESS -> SuccessGreen
                 TextFieldStatus.WARNING -> WarningAmber
-                else -> CharcoalGray
+                else -> PetrolBlue
             }
         }
 
@@ -29,7 +30,7 @@ fun getUnderLineBox(focusState: Boolean, textFieldStatus: TextFieldStatus): Colo
                 TextFieldStatus.SUCCESS -> SuccessGreen
                 TextFieldStatus.WARNING -> WarningAmber
                 TextFieldStatus.DISABLE -> gray500ColorBox
-                else -> CharcoalGray
+                else -> NightBlue
             }
         }
     }
